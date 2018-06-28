@@ -1,0 +1,18 @@
+<html ng-app="nestedControllers">
+<meta charset="utf-8"/>
+<head>
+</head>
+	<title>Nested Controllers App </title>
+	<script src="angular.js"></script> 
+	<script src="app.js"></script> 
+<body>
+	<h1>Nested Controllers App</h1>	
+	
+	<div ng-controller="Ctrl1">
+		<p ng-bind="textProp"></p>
+	</div>
+	<div ng-controller="Ctrl2">
+		<p ng-bind="textProp"></p>	
+	</div>
+</body>
+</html>
